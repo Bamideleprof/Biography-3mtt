@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    list-style: none;
+}
+
+.nav-lists  a {
+    text-decoration: none;
+}
+
+#biography {
+    text-align: center;
+}
+
+img {
+    max-width: fit-content;
+    object-fit: contain;
+    width: 278px;
+    height: 302px;
+}
+
+#hobbies {
+    text-align: center;
+    list-style: none;
+
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+}
+
+h4 {
+    margin-bottom: 3px;
+}
+#contacts a {
+    text-decoration: none;
+}
